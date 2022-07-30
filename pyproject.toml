@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "AWS_SignIn"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.24.41"
+boto = "^2.49.0"
+bs4 = "^0.0.1"
+environs = "^9.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
